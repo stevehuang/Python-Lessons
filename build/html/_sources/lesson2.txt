@@ -195,10 +195,7 @@ For example ``x=10**2+5*2-5`` is computed as follows:
    subtraction are in the same group, we can just calculate from left
    to right. The final answer would be ``105``.
 
-Another example is ``x=10%3**3``. Here ``3**3`` is performed first,
-followed by the remainder operation ``%``. So it would be
-``10%27``. The remainder would be ``10``.
-
+Another example is ``x=-10%3**4``. 
 You can find the detailed table for the order of precedence here
 including other expressions that we have not covered.
 
@@ -246,19 +243,11 @@ Exercises
  
   print 3
   print -1
-  print 3.0
   print 3.1415
   print -3.3333
 
- Notice that the number 3 is printed out like that instead of
- 3.0. This is because 3 is an integer and 3.0 is a floating point
- number. We'll cover this more in the data types lesson. We can
- convert data types and make the integer 3 into the floating number
- 3.0 by running this command::
+ Notice that 
 
-  print float(3)
-
-5. As we saw before you can 
  to http://www.codeskulptor.org/#examples-arithmetic_expressions.py
 
 and follow the instructions and see what happens.

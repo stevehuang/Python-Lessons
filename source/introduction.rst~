@@ -20,14 +20,3 @@ Syllabus
 12. Deep dive classes, tiled images
 13. Acceleration and friction, spaceship class, sprite class, sound
 14. sets, groups of sprites, collisions, sprite animation
-
-Python Code
-
-Code is a series of statements that are executed in order. Python is
-an interpreted language, where the code is executed one line at a
-time. You can write code in a file and execute it.
-
-Each set of instructions tell the computer exactly what to do.
-
-# - means comments. When the code is running, the comments are skipped and not executed. 
-
