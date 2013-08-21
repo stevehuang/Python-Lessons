@@ -1,0 +1,22 @@
+==========
+**Lesson 1- Introduction**
+==========
+
+----------
+Syllabus 
+----------
+
+1. Introduction and goals
+2. Statement, expressions, and variables
+3. Functions, logic, conditions
+4. Data types 
+5. Loops
+6. Data Objects
+7. Event-driven programming
+8. local and global variables, buttons, and input fields
+9. The canvas, static drawing, timers, interactive drawing
+10. Lists, keyboard input, motion, positional/velocity control
+11. Mouse input, most lists, dictionaries, images
+12. Deep dive classes, tiled images
+13. Acceleration and friction, spaceship class, sprite class, sound
+14. sets, groups of sprites, collisions, sprite animation
