@@ -241,8 +241,8 @@ Exercises
  What is ``x``?
 
 4. These series of exercises go more examples of how arithmetic works
-   in Python. 
- First print out some numbers in Python. Try::
+   in Python.  First print out some numbers in Python. 
+ Try::
  
   print 3
   print -1
@@ -258,21 +258,43 @@ Exercises
 
   print float(3)
 
-5. As we saw before you can 
- to http://www.codeskulptor.org/#examples-arithmetic_expressions.py
+ You can also convert a floating point number to an integer by running
+ something like this::
 
-and follow the instructions and see what happens.
+   print int(3.0)
 
-5. There are 5280 feet in a mile. Write a Python statement that calculates and prints the number of feet in 13 miles.
 
-6. The perimeter of a rectangle is 2w+2h, where w and h are the lengths of its sides. Write a Python statement that calculates and prints the length in inches of the perimeter of a rectangle with sides of length 4 and 7 inches. (Try to use variables)
+5. The previous exercise shows how we can explicitly convert to
+   floating point or integer numbers. You can also do it implicitly
+   through arithmetic calculations. For example::
 
-7. The distance between two points (x0,y0) and (x1,y1) is (x0−x1)2+(y0−y1)2. Write a Python statement that calculates and prints the distance between the points (2,2) and (5,6).
+     print (1.0*3)
+     print (1*3)
+   
+   If one operand is a floating number, then the result will be one
+   also.
+   If both operands are integers like ``1*3``, then the result is an
+   integer.
 
-7a. Given the variables x0, y0, x1, and y1, write an assignment statement that defines a variable distance whose values is the distance between the points (x0,y0) and (x1,y1).
+6. There are 5280 feet in a mile. Write a Python statement that
+   calculates and prints the number of feet in 13 miles.
 
-8. Heron's formula states the area of a triangle is
-s(s−a)(s−b)(s−c) where a,b and c are the lengths of the sides of the triangle and s=12, (a+b+c) is the semi-perimeter of the triangle. 
+7. The perimeter of a rectangle is 2w+2h, where w and h are the
+   lengths of its sides. Write a Python statement that calculates and
+   prints the length in inches of the perimeter of a rectangle with
+   sides of length 4 and 7 inches. (Try to use variables)
+
+8. The distance between two points (x0,y0) and (x1,y1) is
+   (x0−x1)2+(y0−y1)2. Write a Python statement that calculates and
+   prints the distance between the points (2,2) and (5,6).
+
+9. Given the variables x0, y0, x1, and y1, write an assignment
+statement that defines a variable distance whose values is the
+distance between the points (x0,y0) and (x1,y1).
+
+10. Heron's formula states the area of a triangle is s(s−a)(s−b)(s−c)
+where a,b and c are the lengths of the sides of the triangle and s=12,
+(a+b+c) is the semi-perimeter of the triangle.
 
 Given the variables x0, y0, x1,y1, x2, and y2, write a Python program that computes a variable area whose value is the area of the triangle with vertices (x0,y0), (x1,y1) and (x2,y2). (Hint: our solution uses five assignment statements.)
 

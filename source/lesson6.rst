@@ -6,16 +6,19 @@ A data type that we have not discussed is **objects**. You can think
 of an object as a noun. A noun - person, place, or thing - can perform
 actions. You can program objects in a similar manner. An object can
 "do things" which you can program using a **method**. Yuo can also
-"can describe" it. This is call an **attritute**.
+"can describe" it. This is call an **attribute**.
 
 In Python you can create a new type that is an object. This object can
 be virtually anything you want. The object can be a ``Person``, a
 ``Cat``, an ``Animal``, a ``Button``, etc.
 
-Let's go over an example of how to write an object. 
+Let's go over an example of how to write an object. Imagine a
+basketball video game. You can describe a player as an object. So what
+are some attributes for a basketball player? It can be their height,
+weight, position.
 
-When you define a new type, it's called a class. You need to use the
-``class`` keyword.  
+When you define a new object data type, it's called a class. You need
+to use the ``class`` keyword.
 
 
 --------- 
