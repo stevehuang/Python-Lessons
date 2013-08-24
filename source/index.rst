@@ -13,3 +13,4 @@ Contents:
 
   introduction
   lesson2
+  lesson6
