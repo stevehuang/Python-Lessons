@@ -216,7 +216,6 @@ Exercises
   print x		
 
  What happened here? Why didn’t the last statement work?
-
 2. **Assignment.** 
  Try the following assignments::
 
@@ -229,7 +228,6 @@ Exercises
   print “My name changed to”, name
 
  Notice that the ``name`` variable is changed to be the same as ``name2``. 
-
 3. **Variables and Assignments.** 
  Try out the following code::
 
@@ -239,7 +237,6 @@ Exercises
   y = 12
 
  What is ``x``?
-
 4. These series of exercises go more examples of how arithmetic works
    in Python.  First print out some numbers in Python. 
  Try::
@@ -262,41 +259,36 @@ Exercises
  something like this::
 
    print int(3.0)
-
-
 5. The previous exercise shows how we can explicitly convert to
    floating point or integer numbers. You can also do it implicitly
    through arithmetic calculations. For example::
 
      print (1.0*3)
      print (1*3)
-   
    If one operand is a floating number, then the result will be one
    also.
    If both operands are integers like ``1*3``, then the result is an
    integer.
-
 6. There are 5280 feet in a mile. Write a Python statement that
    calculates and prints the number of feet in 13 miles.
-
 7. The perimeter of a rectangle is 2w+2h, where w and h are the
    lengths of its sides. Write a Python statement that calculates and
    prints the length in inches of the perimeter of a rectangle with
    sides of length 4 and 7 inches. (Try to use variables)
-
 8. The distance between two points (x0,y0) and (x1,y1) is
    (x0−x1)2+(y0−y1)2. Write a Python statement that calculates and
    prints the distance between the points (2,2) and (5,6).
-
 9. Given the variables x0, y0, x1, and y1, write an assignment
 statement that defines a variable distance whose values is the
 distance between the points (x0,y0) and (x1,y1).
-
 10. Heron's formula states the area of a triangle is s(s−a)(s−b)(s−c)
 where a,b and c are the lengths of the sides of the triangle and s=12,
 (a+b+c) is the semi-perimeter of the triangle.
 
-Given the variables x0, y0, x1,y1, x2, and y2, write a Python program that computes a variable area whose value is the area of the triangle with vertices (x0,y0), (x1,y1) and (x2,y2). (Hint: our solution uses five assignment statements.)
+Given the variables x0, y0, x1,y1, x2, and y2, write a Python program
+that computes a variable area whose value is the area of the triangle
+with vertices (x0,y0), (x1,y1) and (x2,y2). (Hint: our solution uses
+five assignment statements.)
 
 More exercises:
 

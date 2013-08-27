@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to python_lessons's documentation!
+Python Lessons
 ==========================================
 
 Contents:
@@ -13,4 +13,5 @@ Contents:
 
   introduction
   lesson2
+  lesson3
   lesson6
